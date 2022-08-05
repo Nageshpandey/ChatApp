@@ -1,0 +1,138 @@
+.app{
+	max-width: 480px;
+    height: 100vh;
+    margin: auto;
+	border-radius:var(--border_radius);
+	background-color: var(--black);
+	position:relative;
+}
+.topbar{
+	width:100%;
+    height: 90px;
+    color: var(--white);
+	display:flex;
+	align-items:center;
+}
+.avathar{
+	width:48px;
+	height:48px;
+	overflow:hidden;
+	border-radius:50%;
+	margin:20px;
+}
+.avathar img{
+	width:48px;
+	height:48px;
+}
+.avathar_name h4{
+	margin:0;
+	font-size:18px;
+}
+.chat{
+	margin:2px;
+	padding-bottom:75px;
+	height: calc(100vh - 92px);
+	background-color:var(--white);
+	border-radius:var(--border_radius);
+	overflow:scroll;
+}
+.chat::-webkit-scrollbar{
+	display:none
+}
+.chat_list{
+	padding:24px 24px 0 24px;
+	display:flex;
+	justify-content: space-between;
+}
+.chat_list .chat_img{
+	width:60px;
+	height:60px;
+	border-radius:50%;
+}
+.chat_list .chat_img img{
+	width:60px;
+	height:60px;
+	border-radius: 50%;
+}
+.chat_list .chat_detail{
+	flex-grow:3;
+	margin-left:20px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+.chat_list .chat_detail h4{
+	
+	font-size:16px;
+}
+.chat_list .chat_detail p{
+	margin:0;
+	font-size:14px;
+	color:#808080;
+}
+.chat_list .chat_time{
+	display:flex;
+	flex-direction:column;
+	align-items:flex-end;
+}
+.chat_list .chat_time .time{
+	font-size:10px;
+}
+.chat_list .chat_time .notification_count{
+	width:18px;
+	height:18px;
+	font-size:12px;
+	background:var(--black);
+	color:var(--white);
+	border-radius:50%;
+	text-align:center;
+}
+.chat_list .chat_time .notification_read{
+	width:7px;
+	height:7px;
+	background:var(--yellow);
+	color:var(--white);
+	border-radius:50%;
+	text-align:center;
+}
+.bottom_nav {
+	width:100%;
+	height:75px;
+	background-color:var(--black);
+	border-radius:var(--border_radius);
+	position:absolute;
+	bottom:0;
+}
+.bottom_nav ul{
+	padding:0;
+	height:100%;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;	
+	position:relative;
+}
+.bottom_nav ul .active::before{
+	content:"";
+	position:absolute;
+	bottom:17px;
+	width:28px;
+	height:2px;
+	background:var(--yellow);
+}
+.bottom_nav img{
+	width:28px;
+	height:28px;
+}
+.userAdd{
+	position:absolute;
+	bottom:75px;
+	right:0;
+	background:#0f137c;
+	width:70px;
+	height:70px;
+	border-radius:50%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:20px 10px;
+}

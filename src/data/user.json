@@ -1,0 +1,58 @@
+[
+	{
+		"name":"Saraha",
+		"message":"Hey I've completed the design",
+		"notification_count":2,
+		"time":"11.45pm",
+		"profile_img":"https://i.im.ge/2022/08/06/FczWUf.pexels-mentatdgt-1024311.jpg"
+ 	},
+	{
+		"name":"Nagesh",
+		"message":"Get those to me immediately",
+		"notification_count":0,
+		"time":"11.45pm",
+		"profile_img":"https://i.im.ge/2022/08/06/FckH88.IMG-20220512-020910-modified.png"
+	},
+	{
+		"name":"Mrityunjay",
+		"message":"Sent it over sometime back",
+		"notification_count":2,
+		"time":"11.45pm",
+		"profile_img":"https://i.im.ge/2022/08/06/Fcza9G.profile-pic.png"
+	},
+	{
+		"name":"Michael",
+		"message":"Hey i wanted to discuss",
+		"notification_count":3,
+		"time":"11.45pm",
+		"profile_img":"https://i.im.ge/2022/08/06/Fcz9zF.michael-dam-mEZ3PoFGs-k-unsplash.jpg"
+	},
+	{
+		"name":"John",
+		"message":"Send it over",
+		"notification_count":0,
+		"time":"11.45pm",
+		"profile_img":"https://i.im.ge/2022/08/06/FczyYM.pexels-pixabay-220453.jpg"
+	},
+	{
+		"name":"Smith",
+		"message":"When are you available",
+		"notification_count":1,
+		"time":"11.45pm",
+		"profile_img":"https://i.im.ge/2022/08/06/Fczcjp.pexels-andrew-personal-training-697509.jpg"
+	},
+	{
+		"name":"Hofstader",
+		"message":"Hey I've completed the design",
+		"notification_count":3,
+		"time":"11.45pm",
+		"profile_img":"https://i.im.ge/2022/08/06/FcHoH6.pexels-italo-melo-2379005.jpg"
+	},
+	{
+		"name":"Senior Manager",
+		"message":"When are you available",
+		"notification_count":3,
+		"time":"11.45pm",
+		"profile_img":"https://i.im.ge/2022/08/06/FczfsW.pexels-mentatdgt-937481.jpg"
+	}
+]
